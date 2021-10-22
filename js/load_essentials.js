@@ -1,5 +1,5 @@
 let header =
-`<h1>IL FOTOGRAFO</h1> <p>Arturo Kermen, al tuo servizio.</p>`
+`<h1>IL FOTOGRAFO</h1> <p> Arturo Kermen, al tuo servizio.</p>`
 
 document.getElementById("myHead").innerHTML = header
 	

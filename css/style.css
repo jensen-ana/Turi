@@ -3,7 +3,7 @@
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #022146;
   overflow: hidden;
 }
 
@@ -11,7 +11,7 @@
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -20,13 +20,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #014797;
   color: white;
 }
 
@@ -38,12 +38,13 @@
 body {
   font-family: Arial;
   padding: 10px;
-  background: #f1f1f1;
+  background: white;
 }
 
 /* Header/Blog Title */
 .header {
   padding: 30px;
+  color:  #014797;
   text-align: center;
   background: white;
 }
@@ -52,6 +53,9 @@ body {
   font-size: 50px;
 }
 
+.header p {
+  font-size: 27px;
+}
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -64,7 +68,7 @@ body {
 .rightcolumn {
   float: left;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: white;
   padding-left: 20px;
 }
 
@@ -93,7 +97,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: rgb(132, 137, 182);
   margin-top: 20px;
 }
 
@@ -102,18 +106,18 @@ table {
 }
 
 th {
-  background-color: #4CAF50;
+  background-color: #414cac;
   color: white;
 }
 
 th, td {
   padding: 5px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(132, 137, 182);
 }
 
 
-tr:nth-child(even) {background-color: #aaa2a2;}
+tr:nth-child(even) {background-color: rgb(132, 137, 182);}
 
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
